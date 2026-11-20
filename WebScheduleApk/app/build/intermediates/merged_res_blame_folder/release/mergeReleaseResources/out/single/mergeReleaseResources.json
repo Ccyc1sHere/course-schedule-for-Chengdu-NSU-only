@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Huang\\.gradle\\daemon\\8.9\\com.campus.schedule.web.app-release-23:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Huang\\.gradle\\daemon\\8.9\\com.campus.schedule.web.app-main-24:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.campus.schedule.web.app-release-23:/layout_activity_main.xml.flat",
+        "source": "com.campus.schedule.web.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huang\\.gradle\\daemon\\8.9\\com.campus.schedule.web.app-release-23:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Huang\\.gradle\\daemon\\8.9\\com.campus.schedule.web.app-main-24:\\layout\\activity_main.xml"
+    }
+]

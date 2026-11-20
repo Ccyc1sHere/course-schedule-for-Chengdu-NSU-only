@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认语言：简体中文。所有面向用户的文案集中在此，便于新增语言 -->
+<resources>
+    <string name="app_name">课程表</string>
+
+    <!-- 导航 / 视图 -->
+    <string name="nav_schedule">课表</string>
+    <string name="nav_settings">设置</string>
+    <string name="view_day">日视图</string>
+    <string name="view_week">周视图</string>
+    <string name="back_to_this_week">回到本周</string>
+    <string name="today">今天</string>
+
+    <!-- 倒计时 -->
+    <string name="countdown_next">距下一节课还有 %1$d 分钟</string>
+    <string name="countdown_ongoing">正在进行 · 距下课还有 %1$d 分钟</string>
+    <string name="countdown_hours">距下一节课还有 %1$d 小时 %2$d 分钟</string>
+    <string name="next_course_meta">%1$s · %2$s · %3$s</string>
+    <string name="today_no_course">今日无课</string>
+    <string name="today_all_done">今日课程已结束</string>
+    <string name="not_this_week">非本周</string>
+    <string name="odd_week">单周</string>
+    <string name="even_week">双周</string>
+
+    <!-- 日程 CRUD -->
+    <string name="add_item">添加日程</string>
+    <string name="edit_item">编辑日程</string>
+    <string name="delete_item">删除日程</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="discard">放弃</string>
+    <string name="discard_changes_title">放弃未保存的修改？</string>
+    <string name="discard_changes_message">你已经修改了日程内容，返回后这些修改将会丢失。</string>
+    <string name="delete_confirm_title">删除这条日程？</string>
+    <string name="delete_confirm_message">删除后无法恢复。</string>
+    <string name="copy_day_title">复制整周课程</string>
+    <string name="copy_day_from">源周次</string>
+    <string name="copy_day_to">目标周次</string>
+    <string name="copy_day_action">复制</string>
+    <string name="copy_day_done">已复制 %1$d 条日程</string>
+    <string name="drag_reorder_hint">长按拖动可调整同一天内的顺序</string>
+
+    <!-- 编辑页字段（字段名本身也可在设置中重命名） -->
+    <string name="field_title">标题</string>
+    <string name="field_type">类型</string>
+    <string name="field_day">星期</string>
+    <string name="field_start_time">开始时间</string>
+    <string name="field_end_time">结束时间</string>
+    <string name="field_location">地点</string>
+    <string name="field_teacher">教师</string>
+    <string name="field_note">备注</string>
+    <string name="field_week_range">周次范围</string>
+    <string name="field_week_parity">单双周</string>
+    <string name="field_color">颜色</string>
+    <string name="field_color_follow_type">跟随类型默认色</string>
+    <string name="field_week_all">每周</string>
+    <string name="field_week_odd">仅单周</string>
+    <string name="field_week_even">仅双周</string>
+    <string name="field_time_invalid">结束时间必须晚于开始时间</string>
+
+    <!-- 类型（默认值，可在设置中改名 / 改色 / 改图标） -->
+    <string name="type_course">课程</string>
+    <string name="type_meeting">会议</string>
+    <string name="type_sport">运动</string>
+    <string name="type_meal">餐饮</string>
+    <string name="type_attendance">出勤</string>
+    <string name="type_other">其他</string>
+
+    <!-- 星期 -->
+    <string name="weekday_mon">周一</string>
+    <string name="weekday_tue">周二</string>
+    <string name="weekday_wed">周三</string>
+    <string name="weekday_thu">周四</string>
+    <string name="weekday_fri">周五</string>
+    <string name="weekday_sat">周六</string>
+    <string name="weekday_sun">周日</string>
+    <string name="week_label">第 %1$d 周</string>
+    <string name="week_out_of_semester">开学前 / 学期已结束</string>
+
+    <!-- 设置页 -->
+    <string name="settings_section_appearance">外观</string>
+    <string name="settings_section_semester">学期与周次</string>
+    <string name="settings_section_schedule_data">课表数据（全部可编辑）</string>
+    <string name="settings_section_reminder">提醒与勿扰</string>
+    <string name="settings_section_partner">伙伴课表</string>
+    <string name="setting_theme">主题模式</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="setting_language">界面语言</string>
+    <string name="language_follow_system">跟随系统</string>
+    <string name="language_zh_cn">简体中文</string>
+    <string name="language_zh_tw">繁體中文</string>
+    <string name="language_en">English</string>
+    <string name="setting_dynamic_color">动态取色</string>
+    <string name="setting_dynamic_color_desc">仅 Android 12+ 可用；Android 10–11 自动使用品牌配色</string>
+    <string name="setting_default_view">默认视图</string>
+    <string name="setting_inactive_week">非本周日程显示方式</string>
+    <string name="inactive_dim">降低透明度 + 角标</string>
+    <string name="inactive_hide">隐藏</string>
+    <string name="inactive_placeholder">灰色占位</string>
+    <string name="setting_show_countdown">显示顶部倒计时</string>
+    <string name="setting_semester_start">学期起始日期</string>
+    <string name="setting_total_weeks">总周数</string>
+    <string name="setting_period_templates">节次时间表</string>
+    <string name="setting_type_styles">类型名称与配色</string>
+    <string name="setting_custom_type_add">新增自定义类型</string>
+    <string name="setting_countdown_minutes">提前提醒分钟数</string>
+    <string name="setting_reminder">课前提醒</string>
+    <string name="setting_reminder_desc">开启后才会申请通知权限</string>
+    <string name="setting_notification_permission">开启通知权限</string>
+    <string name="setting_notification_denied">通知权限已拒绝，请到系统设置中开启</string>
+    <string name="setting_dnd">上课自动勿扰</string>
+    <string name="setting_dnd_desc">需要手动授予勿扰权限</string>
+    <string name="setting_dnd_permission">授予勿扰权限</string>
+    <string name="setting_partner_import">导入伙伴课表</string>
+    <string name="setting_partner_paste">粘贴分享码</string>
+    <string name="setting_partner_pick_file">选择本地导出文件</string>
+    <string name="setting_partner_clear">清除伙伴课表</string>
+    <string name="setting_partner_overlay">显示伙伴忙碌时段</string>
+    <string name="setting_export">导出我的课表（生成分享码）</string>
+    <string name="setting_seed_clear">清空示例数据</string>
+    <string name="setting_seed_restore">重新导入示例课表</string>
+    <string name="setting_seed_cleared">已清空</string>
+    <string name="setting_seed_restored">示例课表已导入</string>
+    <string name="setting_reset_all">恢复所有默认设置</string>
+
+    <!-- 通用 -->
+    <string name="action_ok">好</string>
+    <string name="action_close">关闭</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_duplicate">复制</string>
+    <string name="action_back">返回</string>
+    <string name="empty_schedule_hint">还没有日程，点右下角按钮添加</string>
+    <string name="widget_title">今日课程</string>
+    <string name="widget_no_course">今日无课，好好休息</string>
+    <string name="widget_next">下一节：%1$s</string>
+    <string name="notification_channel_name">课前提醒</string>
+    <string name="notification_channel_desc">在课程开始前提醒你</string>
+    <string name="notification_title">%1$s 即将开始</string>
+    <string name="notification_body">%1$s · %2$s · %3$s</string>
+</resources>

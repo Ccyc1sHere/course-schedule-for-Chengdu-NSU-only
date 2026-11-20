@@ -1,0 +1,4 @@
+#Fri Nov 20 19:32:53 CST 2026
+base.0=D\:\\Huang\\Desktop\\Files\\CodeFiles\\codefilesAI\\WebScheduleApk\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

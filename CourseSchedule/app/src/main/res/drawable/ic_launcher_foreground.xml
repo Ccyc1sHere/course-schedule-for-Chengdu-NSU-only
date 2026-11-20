@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 内联 VectorDrawable，无网络字体 / 无大图，保证冷启动速度 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M32,28h44a6,6 0,0 1,6 6v40a6,6 0,0 1,-6 6H32a6,6 0,0 1,-6 -6V34a6,6 0,0 1,6 -6zM32,36v8h44v-8H32zM38,50v7h12v-7H38zM56,50v7h12v-7H56zM38,62v7h12v-7H38zM56,62v7h12v-7H56z" />
+</vector>
