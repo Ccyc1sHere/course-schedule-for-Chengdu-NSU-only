@@ -1,0 +1,12 @@
+# Python 相关
+__pycache__/
+*.pyc
+
+# C/C++ 或 Java 编译产物
+*.exe
+*.class
+*.o
+*.txt
+
+# 系统文件
+.DS_Store
